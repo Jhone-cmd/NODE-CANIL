@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "./dist/server.js",
-      "use": ["@vercel/node", "@now/node"]
+      "use": "@now/node"
     }
   ],
   "routes": [
