@@ -41,6 +41,8 @@
     "@types/mustache-express": "^1.2.2",
     "@types/node": "^20.10.5",
     "@vercel/node": "^3.0.14",
-    "copyfiles": "^2.4.1"
+    "copyfiles": "^2.4.1",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0"
   }
 }
