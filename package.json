@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "vercel-build": "npm install && npm install node && npm install @vercel/node && npm start",
+    "vercel-build": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "nodemon -e ts,json,mustache src/server.ts",
     "post": "npm run build && copyfiles -u 1 src/**/*.mustache dist/"
